@@ -2,8 +2,16 @@
   color: red
 }
 
+.navy {
+  color: navy
+}
+
 .App {
   text-align: center;
+}
+
+#cool { /*id*/
+  color:aquamarine;
 }
 
 .App-logo {

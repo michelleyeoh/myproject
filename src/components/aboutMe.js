@@ -4,7 +4,7 @@ export const AboutMe = () => {
     return (
         <div>
             <h1>About Me</h1>
-            <p>all about me</p>
+            <p>all about me!</p>
             
         </div>
     )
