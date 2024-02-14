@@ -5,10 +5,10 @@ import { Home } from './components/home';
 import { AboutMe } from './components/aboutMe';
 import { ErrorPage } from './components/erorrPage';
 
+
 function App() {
   return (
     <div className="App">
-      {/* <h1>Hello World!</h1> */}
       <Router>
         <div>
           <Routes>
