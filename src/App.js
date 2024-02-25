@@ -4,11 +4,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from './components/home';
 import { AboutMe } from './components/aboutMe';
 import { ErrorPage } from './components/erorrPage';
+import { Header } from './components/header';
 
 
 function App() {
   return (
     <div className="App">
+      <Header/>
       <Router>
         <div>
           <Routes>

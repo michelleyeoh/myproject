@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    padding: 0 5rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: blanchedalmond;
+}
+nav a{
+    margin: 0 10px;
+    /* color: blanchedalmond; */
+}
+
+nav a:hover {
+    color: turquoise;
+}
