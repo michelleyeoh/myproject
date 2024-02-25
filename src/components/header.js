@@ -5,7 +5,7 @@ import "../styles/header.css"
 export const Header = () => {
     return (
         <header>
-            <h1>MY</h1>
+            <h4>*ੈ✩‧₊˚michelle's page</h4>
             <nav>
                 <a href="/#">Home</a>
                 <a href="/#">About Me</a>

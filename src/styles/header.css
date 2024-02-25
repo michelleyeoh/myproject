@@ -8,9 +8,9 @@ header {
 }
 nav a{
     margin: 0 10px;
-    /* color: blanchedalmond; */
+    color: peru;
 }
 
 nav a:hover {
-    color: turquoise;
+    color: orange;
 }
