@@ -22,17 +22,19 @@ export const Home = () => {
         <div>
             <h1 className='font'>MICHELLE YEOH</h1>
             <div style={{paddingRight: '500px', paddingLeft: '500px'}}>
-                <p className='navy'>about me!</p>
-                <p>Hello, my name is Michelle. I am a first-year computer science major. Welcome to my personal website!</p>
-                <button onClick={handleClick}>click me for a surprise!</button>
-                <p>This is the number of times clicked: {clicked}</p>
+                <h2>Welcome to my personal website!</h2>
                 <br></br>
+                <div className='border'>
+                    <h4>have fun with these js features:</h4>
+                    <button onClick={handleClick}>click me!</button>
+                    <p>Number of times clicked: {clicked}</p>
+                    <br></br>
 
-                <p>{inputBox}</p>
-                <input value={inputBox} onChange={handleTyping}/>
-                <button onClick={displayParagraph}>submit form</button>
+                    <input value={inputBox} onChange={handleTyping}/>
+                    <button onClick={displayParagraph}>submit</button>
+                    <p>{inputBox}</p>
+                </div>
             </div>
-            
         </div>
     )
 }

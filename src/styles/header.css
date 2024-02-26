@@ -4,13 +4,13 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    background: blanchedalmond;
+    /* background: #282c34; */
 }
 nav a{
     margin: 0 10px;
-    color: peru;
+    color: antiquewhite;
 }
 
 nav a:hover {
-    color: orange;
+    color: rgb(195, 178, 156);
 }

@@ -1,21 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-
 .font {
   font-family: "Crimson Text", serif;
+  font-size: 100px;
 }
 
 .red {
   color: red
 }
 
-.navy {
-  color: navy
-}
-
 .App {
   text-align: center;
+  /* background-color: #282c34; */
+  color: antiquewhite;
 }
+
+.border {
+  border-color: aliceblue;
+  border-style:dotted;
+  border-width: 1px;
+  padding: 20px;
+}
+
+body {
+  background-color: #282c34;
+}
+
+/* not being used */
 
 #cool { /*id*/
   color:aquamarine;

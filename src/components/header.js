@@ -7,8 +7,8 @@ export const Header = () => {
         <header>
             <h4>*ੈ✩‧₊˚michelle's page</h4>
             <nav>
-                <a href="/#">Home</a>
-                <a href="/#">About Me</a>
+                <a href="/">Home</a>
+                <a href="/aboutMe">About Me</a>
             </nav>
         </header>
     )
