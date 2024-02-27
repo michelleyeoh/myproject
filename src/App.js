@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from './components/home';
 import { AboutMe } from './components/aboutMe';
 import { ErrorPage } from './components/erorrPage';
 import { Header } from './components/header';
+import { Footer } from './components/footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <Footer/>
     </div>
   );
 }

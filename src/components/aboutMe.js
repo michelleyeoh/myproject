@@ -1,15 +1,35 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+// import useState from 'react';
+// import {DataItem} from './dataItem'
 
 export const AboutMe = () => {
+    // useEffect(()=> {},[]);
+    /*
+    const [items, setItems] = [
+        {"name": "burger", "price": 5.6},
+        {"name": "taco", "price": 5.5},
+        {"name": "burrito", "price": 5.2}
+    ]
+    function handleClick(event){
+        let temp = items;
+        temp[0].name = 'milkshake';
+        setItems(temp);
+    }
+    */
     return (
         <div>
             <h1>about me!</h1>
             <br></br>
             <p>Hello, my name is Michelle. I am a first-year computer science major.</p>
             <br></br>
-            <h3>my socials:</h3>
+            {/* 
+            <button onClick={handleClick}>change something</button>
+            <DataItem menu={items} message={'hello'}/>
             
+            */}
+            
+            <h3>my socials:</h3>
             <div>
                 <Link to="https://instagram.com/mwyeoh">
                     <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph-900x900.png" alt="ig_logo" style={{height:25, paddingRight:15}}/>
