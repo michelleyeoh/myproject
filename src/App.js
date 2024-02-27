@@ -6,6 +6,7 @@ import { AboutMe } from './components/aboutMe';
 import { ErrorPage } from './components/erorrPage';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
+import { Portfolio } from './components/portfolio';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route exact path ="/" Component={Home}/>
             <Route path ="/aboutme" Component={AboutMe}/>
+            <Route path ="/portfolio" Component={Portfolio}/>
             <Route path ="*" Component={ErrorPage}/>
           </Routes>
         </div>
