@@ -32,11 +32,11 @@ export const AboutMe = () => {
             <h3>my socials:</h3>
             <div>
                 <Link to="https://instagram.com/mwyeoh">
-                    <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph-900x900.png" alt="ig_logo" style={{height:25, paddingRight:15}}/>
+                    <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph-900x900.png" alt="ig_logo" style={{height:30, paddingRight:15}}/>
                 </Link>
                 
                 <Link to="https://linkedin.com/myeoh">
-                    <img src="https://www.freeiconspng.com/thumbs/linkedin-logo-png/displaying-19-gallery-images-for-linkedin-logo-png-25.png" alt="linkedin_logo" style={{height:25}}/>
+                    <img src="https://www.freeiconspng.com/thumbs/linkedin-logo-png/displaying-19-gallery-images-for-linkedin-logo-png-25.png" alt="linkedin_logo" style={{height:30}}/>
                 </Link>
             </div>
              
