@@ -28,8 +28,17 @@ export const AboutMe = () => {
             <DataItem menu={items} message={'hello'}/>
             
             */}
-            
-            <h3>my socials:</h3>
+            <h4>things i enjoy:</h4>
+            <p>coffee</p>
+            <p>cs (of course)</p>
+            <p>photography</p>
+            <p>running</p>
+            <p>bread</p>
+            <p>exploring new places</p>
+            <p>dark chocolate</p>
+            <p>trying new things</p>
+            <br></br>
+            <h3>connect with me:</h3>
             <div>
                 <Link to="https://instagram.com/mwyeoh">
                     <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph-900x900.png" alt="ig_logo" style={{height:30, paddingRight:15}}/>
