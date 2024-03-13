@@ -1,15 +1,14 @@
 import React from 'react';
-import "../styles/header.css"
+import "../styles/footer.css"
 
 export const Footer = () => {
     return (
         <footer>
-            <div style={{paddingTop: '50px'}}>
-                <h3>THANKS FOR VISITING!</h3>
-                <nav>
-                    <a href="https://instagram.com/mwyeoh">Instagram</a>
-                    <a href="https://linkedin.com/myeoh">Linkedin</a>
-                </nav>
+            <div style={{paddingTop: '5px',paddingBottom:'5px'}} className='footerText'>
+                <h5>Michelle Yeoh</h5>
+                <h5>University of California, Davis</h5>
+                <h5>mwyeoh@ucdavis.edu</h5>
+                
             </div>
         </footer>
     )

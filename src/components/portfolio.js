@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 export const Portfolio = () => {
     return (
-        <div>
+        <div style={{paddingBottom:'30px'}}>
             <nav>
                 <h1>Technical Projects</h1>
                 <Link to="https://github.com/michelleyeoh">

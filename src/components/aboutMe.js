@@ -18,7 +18,7 @@ export const AboutMe = () => {
     }
     */
     return (
-        <div>
+        <div style={{paddingBottom:'30px'}}>
             <h1>about me!</h1>
             <br></br>
             <p>Hello, my name is Michelle. I am a first-year computer science major.</p>

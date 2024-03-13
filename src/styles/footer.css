@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    /* padding: 0 5rem; */
+    align-items: center;
+    justify-content: center;
+    /* height: 80px; */
+    background: antiquewhite;
+}
+.footerText {
+    color: #282c34;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+    line-height: .5;
+    font-family: "Crimson Text", serif;
+    font-size: large;
+}
