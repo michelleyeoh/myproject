@@ -1,5 +1,15 @@
 {
   "projects": {
-    "default": "myeoh-32410"
-  }
+    "default": "myeoh"
+  },
+  "targets": {
+    "myeoh-32410": {
+      "hosting": {
+        "myeoh": [
+          "myeoh"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

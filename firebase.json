@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "myeoh",
     "public": "build",
     "ignore": [
       "firebase.json",
