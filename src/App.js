@@ -7,6 +7,7 @@ import { ErrorPage } from './components/erorrPage';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
 import { Portfolio } from './components/portfolio';
+import { Pokemon } from './components/pokemon';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route exact path ="/" Component={Home}/>
             <Route path ="/aboutme" Component={AboutMe}/>
             <Route path ="/portfolio" Component={Portfolio}/>
+            <Route path ="/pokemon" Component={Pokemon}/>
             <Route path ="*" Component={ErrorPage}/>
           </Routes>
         </div>
