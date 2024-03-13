@@ -5,6 +5,20 @@
   font-size: 100px;
 }
 
+.flex {
+  display: inline-flex;
+}
+.leftBox {
+  float:left;
+}
+.rightBox {
+  float:right;
+}
+.textleft {
+  align-items: left;
+  text-align: left;
+}
+
 .red {
   color: red
 }

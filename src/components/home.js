@@ -1,6 +1,9 @@
 import React from 'react';
 import '../App.css';
-// import { useState } from 'react';
+import Typewriter from '../Typewriter';
+// import { useState, useEffect } from "react"
+
+
 
 export const Home = () => {
     // const [clicked, setClicked] = useState(0);
@@ -18,9 +21,20 @@ export const Home = () => {
     // function displayParagraph() {
     //     setDisplay(inputBox)
     // }
+    // const names = [
+    //     'welcome, ', 'ni hao, ', 'greetings, '
+    // ]
+    // const [index, setIndex] = useState(0)
+    // useEffect(() => {
+    // if (index === names.length - 1) return
+    //     setTimeout(() => {
+    //         setIndex(index + 1)
+    //     }, 2000);
+    // }, [index])
+
     return (
         <div>
-            {/* <h2>greetings, i'm </h2> */}
+            <h2 className='textLeft'><Typewriter text="welcome, " delay={100} />I am</h2>
             <h1 className='font'>MICHELLE YEOH</h1>
             <div style={{paddingRight: '500px', paddingLeft: '500px'}}>
                 <h2>Welcome to my personal website!</h2>
