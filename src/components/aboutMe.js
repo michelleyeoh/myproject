@@ -96,7 +96,7 @@ export const AboutMe = () => {
             <br></br>
                 <p>Hello, my name is Michelle. I am a first-year computer science major interested in frontend and backend devlopment.</p>
                 <p>In addition to CS, I enjoy photography and design.</p>
-            <br></br>
+            {/* <br></br> */}
             {/* 
             <button onClick={handleClick}>change something</button>
             <DataItem menu={items} message={'hello'}/>
@@ -104,7 +104,7 @@ export const AboutMe = () => {
             <h3>handmade collages:</h3>
             <h6>(click to flip page)</h6>
             <div className='center'>
-                <HTMLFlipBook width={400} height={600}>
+                <HTMLFlipBook width={800} height={600}>
                     <div className="demoPage">
                         <img src={galentines} alt="galentines" width='400'/>
                     </div>
@@ -123,7 +123,7 @@ export const AboutMe = () => {
                 </HTMLFlipBook>
             </div>
             <br></br>
-            <br></br>
+            {/* <br></br> */}
             <h3>captured moments:</h3>
             <div className="slide-container">
                 <Slide>
