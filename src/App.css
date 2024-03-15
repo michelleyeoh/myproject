@@ -5,6 +5,29 @@
   font-size: 100px;
 }
 
+button {
+  /* position: absolute; */
+  top:50%;
+  background-color:#4c576f;
+  color: #fff;
+  border:none; 
+  border-radius:10px; 
+  padding:15px;
+  min-height:30px; 
+  min-width: 120px;
+  box-shadow: 0 0 0 4px #282c34;
+}
+
+button:hover {
+  outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #8b95ab;
+}
+
+
+
+
+
 .flexEnd {
   align-items: flex-end;
 }
@@ -25,11 +48,25 @@
 .flex {
   display: inline-flex;
 }
+.flex2{
+  display: inline-flex;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 100px;
+  /* padding-top: 100px; */
+  width: 100%;
+  justify-content: space-evenly;
+}
 .leftBox {
   float:left;
+  border-radius:10px; 
+
 }
 .rightBox {
   float:right;
+  border-radius:10px; 
 }
 .textleft {
   align-items: left;

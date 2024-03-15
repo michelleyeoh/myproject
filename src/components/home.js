@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import Typewriter from '../Typewriter';
+// import { Text, StyleSheet, Pressable } from 'react-native';
+import {Link} from 'react-router-dom';
 // import { useState, useEffect } from "react"
 
 
@@ -34,23 +36,31 @@ export const Home = () => {
 
     return (
         <div>
-            <h2 className='textLeft'><Typewriter text="welcome, " delay={100} />I am</h2>
+            <h2 className='textLeft'><Typewriter text="welcome, I am" delay={100} /></h2>
             <h1 className='font'>MICHELLE YEOH</h1>
             <div>
-                <h2>Welcome to my personal website!</h2>
+                {/* <h2>Welcome to my personal website!</h2> */}
+                {/* <br></br> */}
+
+                <div className='flex2' style={{backgroundColor:'antiquewhite'}}>
+                    <div className='leftBox' style={{padding:'70px'}}>
+                        <img src="https://i.imgur.com/JJpB18Z.png" alt="stickfigure_me" height="200px"/>
+                        <h4 style={{color:'black'}}>about me</h4>
+                        <Link to="/aboutMe">
+                            <button>VIEW</button>
+                        </Link>
+                    </div>
+                    <div className='rightBox' style={{padding:'70px'}}>
+                        <img src="https://i.imgur.com/kJI0fpu.png" alt="portfolio" height="200px"/>
+                    
+                        <h4 style={{color:'black'}}>portfolio</h4>
+                        <Link to="/portfolio">
+                            <button>VIEW</button>
+                        </Link>
+                    </div>
+
+                </div>
                 <br></br>
-
-                {/* <div className='flex'>
-                    <div className='leftBox' style={{backgroundColor: 'grey', padding:'100px'}}>
-                        <button>About Me</button>
-                    </div>
-                    <div style={{paddingRight:'50px'}}></div>
-                    <div className='rightBox' style={{backgroundColor: 'grey', padding:'100px'}}>
-                        <button>Portfolio</button>
-                    </div>
-
-                </div> */}
-                
                 {/* <div className='border'>
                     <h4>have fun with these js features:</h4>
                     <button onClick={handleClick}>click me!</button>
