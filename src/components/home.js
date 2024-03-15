@@ -39,6 +39,18 @@ export const Home = () => {
             <div style={{paddingRight: '500px', paddingLeft: '500px'}}>
                 <h2>Welcome to my personal website!</h2>
                 <br></br>
+
+                {/* <div className='flex'>
+                    <div className='leftBox' style={{backgroundColor: 'grey', padding:'100px'}}>
+                        <button>About Me</button>
+                    </div>
+                    <div style={{paddingRight:'50px'}}></div>
+                    <div className='rightBox' style={{backgroundColor: 'grey', padding:'100px'}}>
+                        <button>Portfolio</button>
+                    </div>
+
+                </div> */}
+                
                 {/* <div className='border'>
                     <h4>have fun with these js features:</h4>
                     <button onClick={handleClick}>click me!</button>

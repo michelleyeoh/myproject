@@ -5,6 +5,16 @@
   font-size: 100px;
 }
 
+.center-cropped {
+  background-position: 0% 70%;
+  background-repeat: no-repeat;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .flex {
   display: inline-flex;
 }

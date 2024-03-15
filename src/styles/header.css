@@ -5,16 +5,27 @@ header {
     justify-content: space-between;
     height: 80px;
     /* background: #282c34; */
+    color: antiquewhite;
+    text-decoration: none;
 }
 nav a{
     margin: 0 10px;
     color: antiquewhite;
     text-decoration: none;
+    font-weight: 450;
+}
+
+.link{
+    margin: 0 10px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 450;
 }
 
 nav a:hover {
     color: rgb(195, 178, 156);
 }
+
 h5 {
     align-items: center;
 }
