@@ -12,11 +12,12 @@ import pre_winter from './images/pre_winter.jpg';
 // import useState from 'react';
 // import {DataItem} from './dataItem'
 
-// const spanStyle = {
-//     padding: '20px',
-//     background: '#efefef',
-//     color: '#000000'
-//   }
+const spanStyle = {
+    padding: '10px',
+    background: '#efefef',
+    color: '#000000',
+    opacity: '75%'
+  }
   
   const divStyle = {
     display: 'flex',
@@ -30,23 +31,23 @@ import pre_winter from './images/pre_winter.jpg';
   const slideImages = [
     {
         src: 'https://i.imgur.com/DWn60CW.jpg',
-      caption: 'orchard park'
+      caption: 'hidden seat'
     },
     {
         src: 'https://i.imgur.com/5EsgrIi.jpg',
-        caption: 'watertower'
+        caption: 'davis tower'
     },
     {
         src: 'https://i.imgur.com/dW0vfet.jpg',
-        caption: 'golden_gate'
+        caption: 'golden gate'
     },
     {
         src: 'https://i.imgur.com/j4lbvPC.jpg',
-        caption: 'japanese_garden'
+        caption: 'friendship garden'
     },
     {
         src: 'https://i.imgur.com/VxAMpEd.jpg',
-        caption: 'canals'
+        caption: 'venice canals'
     },
     {
         src: 'https://i.imgur.com/QbC1ZI8.jpg',
@@ -58,19 +59,19 @@ import pre_winter from './images/pre_winter.jpg';
     },
     {
         src: 'https://i.imgur.com/2stKkIu.jpg',
-        caption: 'ny_museum'
+        caption: 'MET'
     },
     {
         src: 'https://i.imgur.com/vCahfxG.jpg',
-        caption: 'ny_buildings'
+        caption: 'new york'
     },
     {
         src: 'https://i.imgur.com/gJXkejb.jpg',
-        caption: 'senior_prom'
+        caption: 'balboa'
     },
     {
         src: 'https://i.imgur.com/SF6aSUu.jpg',
-        caption: 'senior_sunset'
+        caption: 'la jolla'
     },
   ];
 
@@ -100,6 +101,7 @@ export const AboutMe = () => {
             <DataItem menu={items} message={'hello'}/>
             */}
             <h3>photo collages:</h3>
+            <h6>(click to flip page)</h6>
             <div className='center'>
                 <HTMLFlipBook width={400} height={600}>
                     <div className="demoPage">
@@ -127,7 +129,7 @@ export const AboutMe = () => {
                     {slideImages.map((slideImage, index)=> (
                         <div key={index}>
                             <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.src})`}} className='center-cropped'>
-                            {/* <span style={spanStyle}>{slideImage.caption}</span> */}
+                            <span style={spanStyle} className='flexEnd'>{slideImage.caption}</span>
                             </div>
                         </div>
                     ))} 

@@ -5,6 +5,9 @@
   font-size: 100px;
 }
 
+.flexEnd {
+  align-items: flex-end;
+}
 .center-cropped {
   background-position: 0% 70%;
   background-repeat: no-repeat;
