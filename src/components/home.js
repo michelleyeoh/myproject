@@ -36,7 +36,7 @@ export const Home = () => {
         <div>
             <h2 className='textLeft'><Typewriter text="welcome, " delay={100} />I am</h2>
             <h1 className='font'>MICHELLE YEOH</h1>
-            <div style={{paddingRight: '500px', paddingLeft: '500px'}}>
+            <div>
                 <h2>Welcome to my personal website!</h2>
                 <br></br>
 

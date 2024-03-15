@@ -25,6 +25,7 @@ const spanStyle = {
     justifyContent: 'center',
     backgroundSize: 'cover',
     height: '450px',
+    width: '1200px',
     backgroundImage: 'center'
     
   }
@@ -59,7 +60,7 @@ const spanStyle = {
     },
     {
         src: 'https://i.imgur.com/2stKkIu.jpg',
-        caption: 'MET'
+        caption: 'NY Public Library'
     },
     {
         src: 'https://i.imgur.com/vCahfxG.jpg',
@@ -100,7 +101,7 @@ export const AboutMe = () => {
             <button onClick={handleClick}>change something</button>
             <DataItem menu={items} message={'hello'}/>
             */}
-            <h3>photo collages:</h3>
+            <h3>handmade collages:</h3>
             <h6>(click to flip page)</h6>
             <div className='center'>
                 <HTMLFlipBook width={400} height={600}>
@@ -147,7 +148,7 @@ export const AboutMe = () => {
                 {/* <Link to="https://instagram.com/mwyeoh">
                     <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph-900x900.png" alt="ig_logo" style={{height:30, paddingRight:15}}/>
                 </Link> */}
-                <Link to="https://linkedin.com/in/myeoh">
+                <Link target={"_blank"} to="https://www.linkedin.com/in/myeoh/">
                     <img src="https://i.imgur.com/LczZ8nf.png" alt="linkedin_logo" style={{height:30}}/>
                 </Link>
             </div>
