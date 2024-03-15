@@ -145,7 +145,7 @@ export const AboutMe = () => {
                 {/* <Link to="https://instagram.com/mwyeoh">
                     <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph-900x900.png" alt="ig_logo" style={{height:30, paddingRight:15}}/>
                 </Link> */}
-                <Link to="https://linkedin.com/myeoh">
+                <Link to="https://linkedin.com/in/myeoh">
                     <img src="https://i.imgur.com/LczZ8nf.png" alt="linkedin_logo" style={{height:30}}/>
                 </Link>
             </div>
