@@ -104,9 +104,9 @@ export const AboutMe = () => {
             <h3>handmade collages:</h3>
             <h6>(click to flip page)</h6>
             <div className='center'>
-                <HTMLFlipBook width={800} height={600}>
+                <HTMLFlipBook width={400} height={600} classname='mobile'>
                     <div className="demoPage">
-                        <img src={galentines} alt="galentines" width='400'/>
+                        <img src={galentines} alt="galentines" width='400' />
                     </div>
                     <div className="demoPage">
                         <img src={pre_winter} alt="pre_winter" width='400'/>
@@ -136,18 +136,9 @@ export const AboutMe = () => {
                     ))} 
                 </Slide>
             </div>
-            {/* <div className='flex'>
-                <div className='leftBox'>
-                </div>
-                <div className='rightBox'>
-                </div>
-            </div> */}
             <br></br>
             <h3>connect with me:</h3>
             <div>
-                {/* <Link to="https://instagram.com/mwyeoh">
-                    <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph-900x900.png" alt="ig_logo" style={{height:30, paddingRight:15}}/>
-                </Link> */}
                 <Link target={"_blank"} to="https://www.linkedin.com/in/myeoh/">
                     <img src="https://i.imgur.com/LczZ8nf.png" alt="linkedin_logo" style={{height:30}}/>
                 </Link>

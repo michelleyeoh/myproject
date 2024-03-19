@@ -6,7 +6,7 @@ export const Portfolio = () => {
     return (
         <div style={{paddingTop: '10px',paddingBottom:'40px'}} className='flex'>
             <nav>
-                <div className='leftBox' style={{paddingRight:'50px'}}>
+                <div className='leftBox' >
                     <h1>Technical Projects</h1>
                     <Link target={"_blank"} to="https://github.com/michelleyeoh">
                         <img src="https://i.imgur.com/DslGjV3.png" alt="git_logo" style={{height:50, paddingRight:15}}/>

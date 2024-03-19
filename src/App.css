@@ -1,5 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
+header {
+    
+  display: flex;
+  padding: 0 5rem;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  /* background: #282c34; */
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+Hamburger {
+  display:none;
+}
+
+@media only screen and (max-width: 600px){
+  .App {
+    width:100%;
+  }
+  Header{
+    display: none;
+  }
+
+  Hamburger{
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+    justify-content: space-between;
+    height: 80px;
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  HamburgerMenu{
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+  }
+  .NavLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    border-top: 3px solid grey;
+    top: 80px;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    background:antiquewhite;
+  }
+ .flex2 {
+  justify-content: space-around;
+  flex-direction: column;
+ }
+ .mobile{
+  flex-direction: column;
+ }
+}
+
+@media only screen and (min-width: 600px){
+  .center{
+    width:50px;
+    padding:0;
+    margin: 0;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+}
+
+@media only screen and (min-width: 601px){
+  .App {
+    width:100%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .App {
+    width:100%;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .App {
+    width:100%;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .App {
+    width:100%;
+  }
+  
+}
+
 .font {
   font-family: "Crimson Text", serif;
   font-size: 100px;
@@ -24,10 +119,6 @@ button:hover {
     box-shadow: 0 0 0 4px #8b95ab;
 }
 
-
-
-
-
 .flexEnd {
   align-items: flex-end;
 }
@@ -38,15 +129,11 @@ button:hover {
   margin-right: auto;
   width: 50%;
 }
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  /* background-color: white; */
-}
+
 
 .flex {
   display: inline-flex;
+  
 }
 .flex2{
   display: inline-flex;
@@ -55,17 +142,16 @@ button:hover {
   margin-right: 0px;
   margin-left: 0px;
   margin-bottom: 100px;
-  /* padding-top: 100px; */
   width: 100%;
   justify-content: space-evenly;
 }
 .leftBox {
-  float:left;
+  /* float:left; */
   border-radius:10px; 
 
 }
 .rightBox {
-  float:right;
+  /* float:right; */
   border-radius:10px; 
 }
 .textleft {
@@ -79,7 +165,6 @@ button:hover {
 
 .App {
   text-align: center;
-  /* background-color: #282c34; */
   color: antiquewhite;
 }
 
@@ -95,10 +180,6 @@ body {
 }
 
 /* not being used */
-
-.Home {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;

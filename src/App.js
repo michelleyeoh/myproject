@@ -6,6 +6,7 @@ import { ErrorPage } from './components/erorrPage';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
 import { Portfolio } from './components/portfolio';
+import Hamburger from './components/hamburger';
 // import { Pokemon } from './components/pokemon';
 
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <Hamburger/>
       <Router>
         <div >
           <Routes>
