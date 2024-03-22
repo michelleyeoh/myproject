@@ -1,8 +1,9 @@
 import React from "react";
 import "../styles/header.css"
 import {MdOutlineMenu} from 'react-icons/md'
-import { useState } from "react";
 import {MdClose} from 'react-icons/md';
+import { useState } from "react";
+
 
 
 export default function Hamburger(){
